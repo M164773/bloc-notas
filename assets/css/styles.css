@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 2%;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: cornsilk !important;
+}
+
+form{
+    margin: 4% 0;
+}
+
+.modal-title, .modal-body{
+    color: black;
+}
+
+.accordion-header > button, .accordion-header > button:focus{
+    background-color: darkgoldenrod !important;
+    color: whitesmoke !important;
+}
+
+textarea.form-control{
+    height: 35vw;
+}
+
+@media (max-width: 850px){
+    textarea.form-control{
+        height: 55vw;
+    }
+}
+
+@media (max-width: 600px){
+    textarea.form-control{
+        height: 76vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .container > .row > input, .container > .row > button{
+        font-size: 15px !important;
+    }
+    .accordion-header > button, .accordion-body > button.btn-success, form button.btn-success, form button.btn-danger, .accordion-body > strong{
+        font-size: 12px !important;
+        padding: 8px;
+    }
+    .modal-header > .modal-title, .modal-header > button.btn-close, .modal-body > .input-group > input.form-control, .modal-footer > button.btn, .modal-footer > input.btn, select.form-select{
+        font-size: 14px !important;
+    }
+    textarea.form-control{
+        height: 105vw;
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 330px){
+    .container > .row > input, .container > .row > button{
+        font-size: 10px !important;
+        padding: 5px;
+    }
+    h1.text-center{
+        font-size: 15px;
+    }
+    h6.text-center{
+    	font-size: 11px;
+    }
+    .accordion-header > button, .accordion-body > button.btn-success, form button.btn-success, form button.btn-danger, .accordion-body > strong{
+        font-size: 10px !important;
+        padding: 4px;
+    }
+    .modal-header > .modal-title, .modal-header > button.btn-close, .modal-body > .input-group > input.form-control, .modal-footer > button.btn, .modal-footer > input.btn, select.form-select{
+        font-size: 11px !important;
+    }
+    textarea.form-control{
+        height: 150vw;
+        font-size: 10px !important;
+    }
+}
