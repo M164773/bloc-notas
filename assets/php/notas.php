@@ -1,5 +1,9 @@
 <?php
-    chdir("assets"); chdir("txt");
+    chdir("assets"); 
+    if(!file_exists("txt")){
+    	mkdir("txt");
+    }
+    chdir("txt");
     $dir = getcwd();
     chmod($dir, 0777);
     $cs = array_diff(scandir($dir), array('..', '.'));
